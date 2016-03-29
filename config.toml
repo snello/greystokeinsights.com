@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://greystokeinsights.com/"
+baseurl = "http://greystokeinsights.com.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Greystoke Insights"
 theme = "hugo-creative-theme"
