@@ -1,0 +1,286 @@
+# Site settings
+baseurl = "http://greystokeinsights.com/"
+languageCode = "en-us"
+title = "Greystoke Insights"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Arabella Greystoke"
+	description = "Greystoke Insights, a high-end consultancy for brands looking for expert guidance on market intelligence."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "info@greystokeinsights.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Greystoke Insights"
+		services = "Services"
+		portfolio = "Portfolio"
+		about = "About"
+    team = "Team"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # # postpended links
+    # [[menu.postpend]]
+    #     url = "http://gohugo.io"
+    #     name = "External link"
+    #     weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Greystoke Insights"
+		subtitle = "Intelligent and actionable insights for your brand"
+		buttonText = "Tell me more"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Services"
+		subtitle = "Greystoke Insights offers a range of consulting services that combine a strategic business background with deep understanding of people's individual motivations and behavior.  We take a highly customized approach to our work, grounded in understanding your unique business issues.  We have experience in working across the organization including with C-level executives."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-thumbs-up"
+                title = "Consumer Insight"
+                description = "Whether you are a small or medium sized company that has never conducted any formal market research before and wants to better understand your customers, or a large company looking for additional expertise for a particular project, we can help."
+
+            [[params.services.row.list]]
+                icon = "fa-pie-chart"
+                title = "Market Research Solutions"
+                description = "Our focus is on developing research approaches that will dig deep into consumers' attitudes and behaviors leading to actionable insights that can grow your business.  We don't believe in cookie-cutter approaches; instead we look to understand the underlying business issue and design the research accordingly."
+
+            [[params.services.row.list]]
+                icon = "fa-comments"
+                title = "Workshop Design and Facilitation "
+                description = "Cross-functional or team workshops are an effective way to improve teamwork and solve business problems.  Often, workshops benefit from having an experienced external facilitator who can focus on leading the workshop process and achieving the desired outcomes."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "Greystoke Insights portfolio of work includes start-ups and recognised global brands."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+    # About section
+	[params.about]
+        enable = false
+		title = "About"
+		subtitle = "GREYSTOKE INSIGHTS leverages the techniques and skills of consumer research to provide insight-driven solutions that help businesses and individuals achieve their goals.  We begin with a solid understanding of our clients' business issues, then build a deep understanding of decision-makers' needs.  By combining strategic insights with effective communication, we partner with our clients to move their businesses forward.  Greystoke Insights is founded on the belief that our customers' needs are of the utmost importance, and we are entirely committed to meeting those needs. As a result, a high percentage of our business is from repeat customers and referrals."
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		
+		[[params.about.events]]
+			img = "cambridge.png"
+			date = "1990 - 1993"
+			title = "BA (Hons) Materials Science & Engineering @ University of Cambridge"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "cambridge.png"
+      date = "1997 - 1997"
+      title = "MA Materials Science & Engineering @ University of Cambridge"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "darden.jpg"
+      date = "1998 - 2000"
+      title = "MBA @ Darden Graduate School of Business"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+		[[params.about.events]]
+			img = "diageo.jpg"
+			date = "1996 - 1998"
+			title = "Account Manager @ Diageo"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+		[[params.about.events]]
+			img = "bcg.jpeg"
+			date = "2000 - 2002"
+			title = "Strategy Consultant @ Boston Consulting Group"
+			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "diageo.jpg"
+      date = "2002 - 2003"
+      title = "Director, Regional Planning & Analysis @ Diageo"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "npd.jpg"
+      date = "2003 - 2006"
+      title = "Director, Client Development, NPD Beauty @ NPD"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "gfk.gif"
+      date = "2006 - 2007"
+      title = "Vice President @ Knowledge Networks / GfK"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "pernod.png"
+      date = "2007 - 2010"
+      title = "Director, Consumer Insights @ Pernod Ricard"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+	# Team section
+	[params.team]
+        enable = true
+		title = "Arabella Pollack"
+		subtitle = "MBA Megastar of brand intelligence."
+		description = "Arabella is amazing and this is some more text about her."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		# [[params.team.members]]
+		# 	img = "1.jpg"
+		# 	name = "Kay Garland"
+		# 	position = "Lead Designer"
+		# 	social = [
+		# 		["fa-twitter", "#"],
+		# 		["fa-facebook", "#"],
+		# 		["fa-linkedin", "#"]
+		# 	]
+
+	[[params.team.members]]
+		img = "arabella.jpg"
+		name = "Arabella Pollack"
+		position = "Founder and Project Lead"
+		social = [
+			["fa-linkedin", "https://www.linkedin.com/in/arabella-pollack-149b95"]
+		]
+
+		# [[params.team.members]]
+		# 	img = "3.jpg"
+		# 	name = "Diana Pertersen"
+		# 	position = "Lead Developer"
+		# 	social = [
+		# 		["fa-twitter", "#"],
+		# 		["fa-facebook", "#"],
+		# 		["fa-linkedin", "#"]
+		# 	]
+
+	# Client section
+    [params.clients_list]
+        enable = false
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "envato.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "designmodo.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "themeforest.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "creative-market.jpg"
+    		link = "#"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "If you would like to begin speaking with us about a project, please call or email us or alternatively fill in the form."
+    phone = "+1 (917) 653-1813"
+    email = "info@greystokeinsights.com"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = "Greystoke Insights"
+
+		# [[params.footer.social]]
+		# 	icon = "fa-twitter"
+		# 	link = "#"
+    # 
+		# [[params.footer.social]]
+		# 	icon = "fa-facebook"
+		# 	link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/in/arabella-pollack-149b95"
+
+		# [[params.footer.quicklinks]]
+		# 	text = "Privacy Policy"
+		# 	link = "#"
+    # 
+		# [[params.footer.quicklinks]]
+		# 	text = "Terms of Use"
+		# 	link = "#"
