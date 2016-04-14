@@ -6,15 +6,15 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
-    color: #2EC4B6;
+    color: #858585;
 }
 
 .text-primary {
-    color: #E71D36;
+    color: #E53A40;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #E71D36;
+    color: #E53A40;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #E71D36;
+    border-color: #E53A40;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #E71D36;
-    background-color: #E71D36;
+    border-color: #E53A40;
+    background-color: #E53A40;
 }
 
 .btn-primary .badge {
-    color: #E71D36;
+    color: #E53A40;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #E71D36;
+    border-color: #E53A40;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .btn-xl:hover,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #E71D36;
-    background-color: #E71D36;
+    border-color: #E53A40;
+    background-color: #E53A40;
 }
 
 .btn-xl .badge {
-    color: #E71D36;
+    color: #E53A40;
     background-color: #fff;
 }
 
@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #E71D36;
+    color: #E53A40;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -196,8 +196,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #E71D36;
-    background-color: #E71D36;
+    border-color: #E53A40;
+    background-color: #E53A40;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .navbar-default .nav li a {
@@ -220,13 +220,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #E71D36;
+    color: #E53A40;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -268,9 +268,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #EFFFE9;
+    color: #E53A40;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-new-4.jpg);
+    background-image: url(../img/header-bg-new-5.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -280,13 +280,14 @@ header {
 }
 
 header .intro-text {
+    padding-right: 300px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -309,7 +310,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -338,9 +339,9 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 40px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
 }
 
@@ -417,7 +418,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -498,7 +499,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .timeline>li .timeline-image h4 {
@@ -690,7 +691,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #E71D36;
+    border-color: #E53A40;
     box-shadow: none;
 }
 
@@ -768,7 +769,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #E71D36;
+    background-color: #E53A40;
 }
 
 .btn:focus,
@@ -800,7 +801,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -856,12 +857,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #E71D36;
+    background: #E53A40;
 }
 
 ::selection {
     text-shadow: none;
-    background: #E71D36;
+    background: #E53A40;
 }
 
 img::selection {
@@ -873,5 +874,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #E71D36;
+    webkit-tap-highlight-color: #E53A40;
 }

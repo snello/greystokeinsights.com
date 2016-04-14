@@ -40,7 +40,7 @@ googleAnalytics = ""
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
-    team = "Team"
+    team = "About Us"
 		contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -64,7 +64,7 @@ googleAnalytics = ""
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Greystoke Insights"
+		title = ""
 		subtitle = "Intelligent and actionable insights for your brand"
 		buttonText = "Tell me more"
 
@@ -78,18 +78,18 @@ googleAnalytics = ""
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-thumbs-up"
-                title = "Consumer Insight"
+                icon = "fa-comments"
+                title = "Qualitative Insights"
                 description = "Whether you are a small or medium sized company that has never conducted any formal market research before and wants to better understand your customers, or a large company looking for additional expertise for a particular project, we can help."
 
             [[params.services.row.list]]
-                icon = "fa-pie-chart"
-                title = "Market Research Solutions"
+                icon = "fa-bar-chart"
+                title = "Quantitative Insights"
                 description = "Our focus is on developing research approaches that will dig deep into consumers' attitudes and behaviors leading to actionable insights that can grow your business.  We don't believe in cookie-cutter approaches; instead we look to understand the underlying business issue and design the research accordingly."
 
             [[params.services.row.list]]
-                icon = "fa-comments"
-                title = "Workshop Design and Facilitation "
+                icon = "fa-group"
+                title = "Workshop Design and Facilitation"
                 description = "Cross-functional or team workshops are an effective way to improve teamwork and solve business problems.  Often, workshops benefit from having an experienced external facilitator who can focus on leading the workshop process and achieving the desired outcomes."
 
 	# Portfolio section
@@ -176,9 +176,9 @@ googleAnalytics = ""
 	# Team section
 	[params.team]
         enable = true
-		title = "Arabella Pollack"
-		subtitle = "MBA Megastar of brand intelligence."
-		description = "Arabella is amazing and this is some more text about her."
+		title = "About Us"
+		subtitle = ""
+		description = "Arabella Pollack has extensive experience in consumer products, with a particular focus on building aspirational, image-driven brands through deeper understanding of the consumer. She is Founder and Principal of Greystoke Insights, which leverages the techniques and skills of consumer research to provide insight-driven solutions to business challenges. She was previously the director of consumer insights at Pernod Ricard USA, where she was responsible for ensuring that the consumer was at the heart of marketing decision-making. She managed a full spectrum of qualitative and quantitative research on brands including ABSOLUT vodka, impacting the business in areas ranging from innovation to communication strategy and portfolio management. Prior to this, she worked for leading market research vendors including The NPD Group, where she managed relationships with prestige beauty clients such as Estée Lauder, Dior, and Lancôme. Pollack has also worked with brands such as Guinness and Baileys at Diageo, the world’s leading spirits company, and has spent time as a strategy consultant with the Boston Consulting Group in their consumer and retail practice.  She holds an M.A. from Cambridge University and an M.B.A. from the Darden Business School at the University of Virginia.  Arabella Pollack is Interim Program Director for the Master of Science in Strategic Communications program at Columbia University and teaches From Information to Insights."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
