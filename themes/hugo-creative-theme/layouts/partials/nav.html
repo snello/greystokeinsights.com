@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-              <img class="brand" src="img/logo.png" width="35px" />{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}
+              <img class="brand" src="img/logo.png" width="150px" />{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}
             </a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
@@ -35,6 +35,12 @@
                 {{ if .Site.Params.portfolio.enable }}
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
+                {{ if .Site.Params.testimonials.enable }}
+                <li>
+                    <a class="page-scroll" href="#testimonials">{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
